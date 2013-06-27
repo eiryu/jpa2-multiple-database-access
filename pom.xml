@@ -19,6 +19,13 @@
                     <source>1.7</source>
                     <target>1.7</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
+                    <compilerArguments>
+                        <endorseddirs>target</endorseddirs>
+                        <proc:none/>
+                        <Xlint/>
+                        <Xlint:-path/>
+                        <verbose />
+                    </compilerArguments>
                 </configuration>
             </plugin>
             <plugin>
